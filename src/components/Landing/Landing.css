@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #111;
+  background: #252525;
   color: #fafafa;
   font-family: Arial, sans-serif;
 }
@@ -94,7 +94,13 @@ button {
   margin: 0;
 }
 
-button:active {
+button:hover {
   box-shadow: none;
   transform: translate(3px, 3px);
+}
+
+button:active {
+  background: white;
+  font-weight: 600;
+  color: #252525;
 }
