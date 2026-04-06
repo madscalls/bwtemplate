@@ -1,4 +1,7 @@
 import "./Footer.css";
+import Insta from "../../assets/Instagram_Glyph_Gradient.svg";
+import Facebook from "../../assets/Facebook_logo_Primary.png";
+import Youtube from "../../assets/yt_logo_white_digital.png";
 
 function Footer() {
   return (
@@ -16,15 +19,28 @@ function Footer() {
         <h4>FOLLOW</h4>
 
         <div className="footer__socials">
-          {/* Replace with your images later */}
           <a href="#">
-            <span>IG</span>
+            <span>
+              <img src={Insta} alt="Instagram logo" className="footer__insta" />
+            </span>
           </a>
           <a href="#">
-            <span>FB</span>
+            <span>
+              <img
+                src={Facebook}
+                alt="Facebook logo"
+                className="footer__facebook"
+              />
+            </span>
           </a>
           <a href="#">
-            <span>TW</span>
+            <span>
+              <img
+                src={Youtube}
+                alt="Youtube logo"
+                className="footer__youtube"
+              />
+            </span>
           </a>
         </div>
       </div>
