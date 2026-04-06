@@ -1,4 +1,5 @@
 import "./Landing.css";
+import Footer from "../Footer/Footer";
 
 function Landing() {
   return (
@@ -56,6 +57,7 @@ function Landing() {
           </section>
         </main>
       </div>
+      <Footer />
     </div>
   );
 }
