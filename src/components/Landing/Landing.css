@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #111;
+  color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  display: flex;
+}
+
+.landing__sidebar {
+  width: 240px;
+  border-right: 2px solid #fafafa;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.landing__main {
+  flex: 1;
+  padding: 56px 48px;
+}
+
+.landing__eyebrow {
+  letter-spacing: 4px;
+  font-size: 0.9rem;
+  color: #c9b39a;
+  margin-bottom: 20px;
+}
+
+.landing__title {
+  font-size: 4.5rem;
+  line-height: 0.95;
+  margin: 0 0 24px;
+  font-weight: 900;
+}
+
+.landing__subtitle {
+  font-size: 1.5rem;
+  color: #c7b299;
+  margin-bottom: 36px;
+}
+
+.landing__actions {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.landing__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 900px;
+}
+
+.landing__card {
+  background: #222;
+  border: 2px solid #fafafa;
+  border-radius: 16px;
+  box-shadow: 6px 6px #fafafa;
+  padding: 28px;
+}
+
+.landing__card h3 {
+  margin: 0 0 14px;
+  font-size: 2rem;
+}
+
+.landing__card p {
+  margin: 0;
+  color: #d2c1ad;
+  font-size: 1.2rem;
+}
+
+button {
+  font-size: 1.5rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #fafafa;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 0;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
