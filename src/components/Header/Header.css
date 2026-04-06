@@ -1,0 +1,13 @@
+span.Header__span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.Header__logo {
+  display: block;
+  margin: 0;
+  height: 200px;
+  width: auto;
+  filter: contrast(85%);
+}

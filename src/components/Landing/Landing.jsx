@@ -5,7 +5,7 @@ function Landing() {
   return (
     <div className="landing">
       <header className="landing__topbar">
-        <div className="landing__brand">BRAND</div>
+        <div className="landing__brand"></div>
 
         <div className="landing__topbar-actions">
           <button>SIGN IN</button>
